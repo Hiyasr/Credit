@@ -88,7 +88,7 @@ Contributions are welcome! If you have any improvements or suggestions, please o
 
 ## License
 
-This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
+This project includes materials provided by CS50. For more information on the CS50 course and its licensing, visit [cs50.harvard.edu](https://cs50.harvard.edu).
 
 ## Acknowledgements
 
