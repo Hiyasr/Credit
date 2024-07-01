@@ -1,0 +1,31 @@
+#pseudocode
+
+Get Input:
+
+Prompt user for a credit card number.
+Ensure the input is numeric and doesn't have leading zeros.
+Luhn’s Algorithm:
+
+Initialize two sums: sum1 for digits to be multiplied by 2, sum2 for digits not multiplied by 2.
+For each digit in the credit card number, starting from the end:
+If the position is even (considering the end as position 1):
+Multiply the digit by 2.
+If the result is greater than 9, add the digits of the result to sum1.
+Else, add the result directly to sum1.
+If the position is odd:
+Add the digit directly to sum2.
+Calculate the total sum: total = sum1 + sum2.
+Check if the total modulo 10 is 0:
+If yes, the number is potentially valid.
+If no, the number is invalid.
+Check Card Type:
+
+Determine the length of the credit card number.
+Check the starting digits to determine the card type:
+If length is 15 and starts with 34 or 37, it's an American Express (AMEX).
+If length is 16 and starts with 51, 52, 53, 54, or 55, it's a MasterCard.
+If length is 13 or 16 and starts with 4, it's a Visa.
+If none of the conditions match, the card type is invalid.
+Output:
+
+Print the determined card type or "INVALID"
