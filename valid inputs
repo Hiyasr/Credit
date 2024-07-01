@@ -1,0 +1,27 @@
+Valid Credit Card Numbers:
+American Express (AMEX):
+
+AMEX cards have 15 digits and start with 34 or 37.
+Example: 378282246310005
+MasterCard:
+
+MasterCard cards have 16 digits and start with 51, 52, 53, 54, or 55.
+Example: 5105105105105100
+Visa:
+
+Visa cards have 13 or 16 digits and start with 4.
+Example (13 digits): 4222222222222
+Example (16 digits): 4111111111111111
+Examples of Valid Card Numbers:
+American Express (AMEX):
+
+378282246310005
+371449635398431
+MasterCard:
+
+5105105105105100
+5555555555554444
+Visa:
+
+4111111111111111
+4012888888881881
